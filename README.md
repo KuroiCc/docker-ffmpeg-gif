@@ -1,10 +1,14 @@
 # docker-ffmpeg-gif
 A simple script to convert a video to a gif using docker container of jrottenberg/ffmpeg.
+
 Thanks to [jrottenberg/ffmpeg](https://github.com/jrottenberg/ffmpeg) for the great work.
 
-The input and output can **ONLY** be the video files in the **CURRENT DIRECTORY**.
+<br />
 
-Before use, make sure docker is installed and running.
+!! The input and output can **ONLY** be the video files in the **CURRENT DIRECTORY**.
+
+!! Before use, make sure docker is installed and running.
+
 ```bash
 $ ./src/script.sh -h
 
