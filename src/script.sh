@@ -81,7 +81,7 @@ if [ ! -n "$FPS" ]; then
     FPS="15"
 fi
 
-docker run -v $(pwd):$(pwd) -w $(pwd) -it \
+docker run -v $(pwd):$(pwd) -w $(pwd) -it --rm \
     jrottenberg/ffmpeg:5.0.1-scratch313 \
     -stats \
     -i "$INPUT" \
