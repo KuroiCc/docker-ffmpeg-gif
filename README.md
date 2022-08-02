@@ -26,3 +26,11 @@ Usage:
 ```bash
 $ ./src/script.sh -i ScreenRecord2022-08-02.mov --ffmpeg-args "-ss 0 -t 3" --fps 5 output.gif 
 ```
+
+## FAQ
+
+#### Why this script stops here?
+It's normal, the ffmpeg is running just keep waiting.
+
+<img src="https://raw.githubusercontent.com/KuroiCc/kuroi-image-host/main/images/20220802150322.png" width=720px />
+
